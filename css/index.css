@@ -75,13 +75,11 @@ a{
 
 /* start header design */
 .head{
+    
     display: flex;
     justify-content: center;
     align-content: space-between;
     padding:2rem;
-}
-.nav{
-    display: flex;
 }
 
 .container {
@@ -205,11 +203,101 @@ footer nav a {
 
 /* begin About header design */
 
-.nav{
+.head2{
     display: flex;
-    justify-content: center;
-    padding:2rem;
+    justify-content: space-evenly;
 }
 
-/* begin section one design */
+/* begin About section one design */
+
+.text{
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+/* begin About section two design */
+
+.section2{
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 1rem;
+}
+.section2 button{
+    margin: 1rem;
+    padding: .5rem;
+    border-radius: 7px;
+}
+.section2 h2{
+    padding-top: .5rem;
+}
+.section2 img{
+    border-top: 1px dashed black;
+    padding-top: 3rem;
+}
+.firstbox{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 2rem;
+    margin-left: 34rem;
+}
+.text1 h2 p{
+    width: 90%;
+}
+
+.secondbox{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 10rem;
+    margin-left: 2rem;
+}
+.firstbox .secondbox{
+    border-top: 1px dashed black;
+    padding-top: 3rem;
+}
+.text2 h2 p{
+    width: 90%;
+}
+.thirdbox{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 2rem;
+    margin-left: 34rem
+}
+.text3 h2 p{
+    width: 90%;
+}
+.fourthbox{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-right: 10rem;
+    margin-left: 2rem;
+}
+.text4 h2 p{
+    width: 90%;
+}
+.fifthbox h2 p{
+    display: flex;
+    flex-direction: colulmn;    
+}
+
+/* begin footer design */
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
 
