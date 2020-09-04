@@ -200,9 +200,16 @@ footer nav a {
     text-decoration: none;
 }
 
-/* begin css for About page */
-    
+/* BEGIN CSS FOR ABOUT PAGE */
 
-.container.about-page{
-  
+
+/* begin About header design */
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding:2rem;
 }
+
+/* begin section one design */
+
