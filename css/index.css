@@ -46,9 +46,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+/* start of general styling */
 * {
     box-sizing: border-box;
+    /* border: 2px solid grey; */
+    max-width:100%;
+
 }
 
 html, body {
@@ -66,10 +69,26 @@ p {
     line-height: 1.4;
 }
 
+a{
+    text-decoration: none;
+}
+
+/* start header design */
+.head{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding:2rem;
+}
+.nav{
+    display: flex;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
+/* top content design start */
 
 .top-content {
     display: flex;
@@ -78,12 +97,15 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+.top-content img{
+    padding-bottom:1.5rem;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/* middle content design start */
 
 .middle-content {
     margin-bottom: 20px;
@@ -111,6 +133,38 @@ p {
     align-items: center;
     justify-content: center;
 }
+#teal{
+    background-color:teal;
+}
+#gold{
+    background-color:gold;
+}
+#cadetblue{
+    background-color:cadetblue;
+}
+#coral{
+    background-color:coral;
+}
+#crimson{
+    background-color:crimson;
+}
+#forestgreen{
+    background-color:forestgreen;
+}
+#darkorchid{
+    background-color:darkorchid;
+}
+#hotpink{
+    background-color:hotpink;
+}
+#indigo{
+    background-color:indigo;
+}
+#dodgerblue{
+    background-color:dodgerblue;
+}
+
+/* bottom content design start */
 
 .bottom-content {
     display: flex;
@@ -130,6 +184,7 @@ footer {
     width: 100%;
     background: black;
 }
+/* footer content design start */
 
 footer nav {
     width: 60%;
@@ -143,4 +198,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* begin css for About page */
+    
+
+.container.about-page{
+    background-color: blue;
 }
