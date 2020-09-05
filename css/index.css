@@ -214,8 +214,9 @@ header nav a{
 /* begin About Main styling */
 
 #main-content{
+    width: 100%;
     display:flex;
-    flex-flow: row wrap;
+    flex-flow: row wrap
 }
 
 .container{
@@ -223,17 +224,19 @@ header nav a{
     display:flex;
     flex-flow: row wrap;
     padding-top: 1rem;
-    
+    padding-left: 1rem;
+    padding-right: 1rem;   
 }
 
 .text-container{
+    width:90%;
     display:flex;
     flex-flow: row wrap;
     padding-top: 1rem;
 }
 
 .text-container button{
-    width:25%;
+    width:35%;
     border-radius: 10%;
     padding: 3px;
     margin: .3rem;
