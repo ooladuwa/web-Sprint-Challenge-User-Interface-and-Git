@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -50,11 +50,15 @@ table {
 * {
     box-sizing: border-box;
     max-width: 100%;    
-    border: 1px gray solid;
+    /* border: 1px gray solid; */
 }
 
+a{
+    text-decoration: none;
+}
 
 html, body {
+    font-size:62.5%
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -196,6 +200,8 @@ footer nav a {
 
 /* BEGIN CSS STYLING FOR ABOUT PAGE */
 
+/* begin About header styling */
+
 header nav a{
     width: 60%;
     text-align: center;
@@ -203,4 +209,36 @@ header nav a{
 .headImage{
     display:flex;
     justify-content: center;
+}
+
+/* begin About Main styling */
+
+#main-content{
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.container{
+    width: 50%;
+    display:flex;
+    flex-flow: row wrap;
+    padding-top: 1rem;
+    
+}
+
+.text-container{
+    display:flex;
+    flex-flow: row wrap;
+    padding-top: 1rem;
+}
+
+.text-container button{
+    width:25%;
+    border-radius: 10%;
+    padding: 3px;
+    margin: .3rem;
+}
+#containerb{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
