@@ -78,7 +78,6 @@ header nav a{
     justify-content: center;
 }
 
-
 .container {
     width: 800px;
     margin: 0 auto;
@@ -188,4 +187,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+
+
+/* BEGIN CSS STYLING FOR ABOUT PAGE */
+
+header nav a{
+    width: 60%;
+    text-align: center;
+}
+.headImage{
+    display:flex;
+    justify-content: center;
 }
