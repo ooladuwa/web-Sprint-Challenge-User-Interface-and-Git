@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
 	list-style: none;
@@ -58,7 +58,7 @@ a{
 }
 
 html, body {
-    font-size:62.5%
+    font-size:62.5%;
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
@@ -73,20 +73,33 @@ p {
     line-height: 1.4;
 }
 /* begin header styling */
-header nav a{
+header {
+    width: 100%;
+    background: none;
+}
+
+header nav {
     width: 60%;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2%;
+    font-size: 14px
+}
+
+header nav a{
+    color: black;
 }
 .headImage{
     display:flex;
     justify-content: center;
 }
-
+/* whole bucket */
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
+/* top section */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -100,7 +113,7 @@ header nav a{
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+/* middle section */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -159,7 +172,7 @@ header nav a{
 #dodgerblue{
     background-color: dodgerblue;
 }
-
+/* bottom section */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -194,40 +207,70 @@ footer nav a {
 }
 
 
-
-
-
-
 /* BEGIN CSS STYLING FOR ABOUT PAGE */
 
 /* begin About header styling */
 
-header nav a{
-    width: 60%;
-    text-align: center;
+header {
+    width: 100%;
+    background: none;
 }
-.headImage{
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px
+}
+
+header nav a{
+    color: black;
+}
+    .headImage img{ 
+    height: auto;
+    width: 100%;
     display:flex;
     justify-content: center;
 }
 
 /* begin About Main styling */
+.container .about-page {
+        width: 800px;
+        margin: 0 auto;
+} 
+#containerA{
+    padding-bottom: 2rem;
+}
+.text-container{
+    display: flex;
+    flex-flow: column nowrap
+   
+}
+.text-container p{
+    width: 90%;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
 
-#main-content{
+.text-container button{
+    width: 25%;
+    padding: .25rem;
+    border-radius: 10%;
+    margin-bottom: 2rem;
+}
+.main-content{
     display: flex;
     flex-wrap: wrap;
-    width: 51%;
 }
-.image-container img{
-    width: 90%;
-    display: flex;
+.whole-container{
+    width: 45%;
 }
-
-.text-container p{
-    display: flex;
-    flex-flow: row;
+.whole-container, .working{
+    padding-left: 3rem;
 }
-.text-container button{
-padding: .5rem;
-border-radius: 10%;
+    
+.containerB{
+    padding-bottom: 2rem;
 }
