@@ -131,16 +131,14 @@ table {
 * {
 	box-sizing: border-box;
 	max-width: 100%;
-    /* border: 1px solid red; */
-   
 }
 
 html,
 body {
-	height: 100%;
-    font-family: "Roboto", sans-serif;
-    border-left: 4rem solid black;
-    border-right: 4rem solid black;
+	/* height: 100%; */
+	font-family: "Roboto", sans-serif;
+	border-left: 4rem solid black;
+	border-right: 4rem solid black;
 }
 
 h1,
@@ -156,31 +154,30 @@ h5 {
 p {
 	line-height: 1.4;
 }
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
 
 /* Begin Header Styling */
 header {
 	width: 100%;
-	
 }
 .head-pic {
 	display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: flex-end;
-    padding-top: 2%;
-    padding-bottom: 2%;
+	width: 100%;
+	justify-content: center;
+	align-items: flex-end;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 .head-pic a {
-padding: 2% 3% 0 0;
-margin-left: 3%; 
+	padding: 2% 3% 0 0;
+	margin-left: 5.5%;
 }
 
 .head-img {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 /* Begin Main Styling*/
 .container {
@@ -201,13 +198,7 @@ margin-left: 3%;
 	padding: 0 1%;
 	padding-bottom: 20px;
 }
-.text-container.strategy {
-    padding-top: 1%;
-    border-top: 1px dotted black;
-}
-.text-container.how {
-    border-top: 1px dotted black;
-}
+
 .middle-content {
 	margin-bottom: 20px;
 	border-bottom: 1px dashed black;
@@ -290,15 +281,13 @@ footer nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 2%;
-    font-size: 14px;
-    background-color:black;
-    
-    
+	font-size: 14px;
+	background-color: black;
 }
 
 footer nav a {
-    background-color: black;
-    color: white;
+	background-color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -311,11 +300,19 @@ footer nav a {
 }
 #containerA {
 	padding-bottom: 2rem;
+	border-bottom: 2px dotted black;
 }
 .text-container {
 	display: flex;
 	flex-flow: column nowrap;
+	border-bottom: 1px dotted black;
 }
+
+.img {
+	border-top: 1px dotted black;
+	padding-top: 7%;
+}
+
 .text-container p {
 	width: 90%;
 	font-size: 1rem;
@@ -325,12 +322,8 @@ footer nav a {
 .text-container button {
 	width: 35%;
 	padding: 2%;
-    border-radius: 12%;    
-    margin-bottom: 2rem;
-}
-
-.text-container.collaboration {
-    border-top: 1px dotted black;
+	border-radius: 12%;
+	margin-bottom: 2rem;
 }
 .main-content {
 	display: flex;
@@ -347,7 +340,7 @@ footer nav a {
 .containerB {
 	padding-bottom: 2rem;
 	width: 90%;
-    margin-left: 1rem;
-    /* border-top: 1px dotted black; */
-    padding-top: 6%;
+	margin-left: 1rem;
+	/* border-top: 1px dotted black; */
+	padding-top: 6%;
 }
