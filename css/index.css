@@ -272,14 +272,14 @@ margin-left: 3%;
 .bottom-content .text-container:last-child {
 	padding-right: 0;
 }
-
+/* Begin footer Styling */
 footer {
 	width: 100%;
 	background: black;
 }
 
 footer nav {
-	width: 100%;
+	width: 60%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -288,11 +288,53 @@ footer nav {
     background-color:black;
     
     
-    
 }
 
 footer nav a {
     background-color: black;
     color: white;
 	text-decoration: none;
+}
+
+/* BEGIN ABOUT PAGE STYLING */
+* begin About Main styling */
+.container .about-page {
+	width: 800px;
+	margin: 0 auto;
+}
+#containerA {
+	padding-bottom: 2rem;
+}
+.text-container {
+	display: flex;
+	flex-flow: column nowrap;
+}
+.text-container p {
+	width: 90%;
+	font-size: 1rem;
+	padding-bottom: 2rem;
+}
+
+.text-container button {
+	width: 25%;
+	padding: 0.25rem;
+	border-radius: 10%;
+	margin-bottom: 2rem;
+}
+.main-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+.whole-container {
+	width: 45%;
+}
+.whole-container,
+.working {
+	padding-left: 3rem;
+}
+
+.containerB {
+	padding-bottom: 2rem;
+	width: 90%;
+	margin-left: 1rem;
 }
