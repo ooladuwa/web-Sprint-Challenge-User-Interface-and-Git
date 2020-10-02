@@ -86,7 +86,7 @@ audio,
 video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -131,13 +131,15 @@ table {
 * {
 	box-sizing: border-box;
 	max-width: 100%;
-	border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: white;
 }
 
 html,
 body {
 	height: 100%;
-	font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+    background-color: black;
 }
 
 h1,
@@ -153,22 +155,32 @@ h5 {
 p {
 	line-height: 1.4;
 }
+a{
+    text-decoration: none;
+}
 
 /* Begin Header Styling */
 header {
-	width: 800px;
-	padding-left: 5%;
+	width: 100%;
+	
 }
 .head-pic {
 	display: flex;
-	width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: ;
+}
+.head-pic a {
+padding: 2% 3% 0 0;
+margin-left: 3%; 
 }
 
-nav a {
-	padding: 4% 3% 4% 6%;
-}
-nav img {
-	padding-bottom: 4%;
+.head-img {
+    display: flex;
+    justify-content: center;
 }
 /* Begin Main Styling*/
 .container {
@@ -267,15 +279,20 @@ footer {
 }
 
 footer nav {
-	width: 60%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 20px 2%;
-	font-size: 14px;
+    font-size: 14px;
+    background-color:black;
+    
+    
+    
 }
 
 footer nav a {
-	color: white;
+    background-color: black;
+    color: white;
 	text-decoration: none;
 }
