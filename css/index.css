@@ -132,14 +132,15 @@ table {
 	box-sizing: border-box;
 	max-width: 100%;
     /* border: 1px solid red; */
-    background-color: white;
+   
 }
 
 html,
 body {
 	height: 100%;
     font-family: "Roboto", sans-serif;
-    background-color: black;
+    border-left: 4rem solid black;
+    border-right: 4rem solid black;
 }
 
 h1,
@@ -171,7 +172,6 @@ header {
     align-items: flex-end;
     padding-top: 2%;
     padding-bottom: 2%;
-    padding-right: ;
 }
 .head-pic a {
 padding: 2% 3% 0 0;
@@ -201,7 +201,13 @@ margin-left: 3%;
 	padding: 0 1%;
 	padding-bottom: 20px;
 }
-
+.text-container.strategy {
+    padding-top: 1%;
+    border-top: 1px dotted black;
+}
+.text-container.how {
+    border-top: 1px dotted black;
+}
 .middle-content {
 	margin-bottom: 20px;
 	border-bottom: 1px dashed black;
@@ -318,12 +324,14 @@ footer nav a {
 
 .text-container button {
 	width: 35%;
-	padding: 0.25rem;
-	border-radius: 12%;
+	padding: 2%;
+    border-radius: 12%;    
     margin-bottom: 2rem;
-
 }
 
+.text-container.collaboration {
+    border-top: 1px dotted black;
+}
 .main-content {
 	display: flex;
 	flex-wrap: wrap;
@@ -340,6 +348,6 @@ footer nav a {
 	padding-bottom: 2rem;
 	width: 90%;
     margin-left: 1rem;
-    border-top: 1px dotted black;
+    /* border-top: 1px dotted black; */
     padding-top: 6%;
 }
